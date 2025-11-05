@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+	<style>
+		#gotop{
+			display: block;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			position: fixed;
+			right: 10px;
+			bottom: 10px;
+			color: #fff;
+			background-color: #005cbf;
+			border-radius: 50px;
+			text-align: center;
+		}
+		h4{
+			text-align: center;
+			border-bottom: 1px solid;
+		}
+		.video-list-area{
+			background-color: #eeeeee;
+			width: 900px;
+			border-radius: 10px;
+			padding: 10px;
+		}
+		.video-list-area ol{
+			width: 900px;
+			padding-left: 20px;
+			margin: 0;
+		}
+		.video-list-area ol:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.video-list-area li{
+			list-style: none;
+			background-color: #ffffff;
+			width: 220px;
+			padding: 10px;
+			margin: 4px;
+			border: 2px solid #aaaaaa;
+			border-radius: 10px;
+			float: left;
+		}
+		.video-list-area li a {
+			color: orange;
+			text-decoration: none;
+		}
+		.video-list-area li a.active{
+			text-decoration: underline;
+			color: red;
+		}
+	</style>
+	<link rel="stylesheet" href="5-2.css"/>
+</head>
+<header>
+			<div><h1>NOC云课堂</h1></div>
+			<nav class="nav">
+				<a href="#">首页</a>
+				<a href="#">课堂分类</a>
+				<a href="#">直播课堂</a>
+				<a href="#">阶段测试</a>
+			</nav>
+			<div class="header-right">
+				<a href="#">登录</a>
+				<a href="#">注册</a>
+			</div>
+		</header>
+<body>
+	<div>
+	    <h2 class="player-title">Chrome安装</h2>
+		<video src="file:///D:/02/js/1.mp4"controls="comtrols" width="800px"></video>
+		</div>
+	</div>
+	
+	<section>
+	    <table border="1" width="800">
+	        <caption>本章资料</caption>
+	        <thead>
+	            <tr>
+	                <th>名称</th>
+	                <th>类型</th>
+	                <th>获取</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	            <tr>
+	                <td>教案</td>
+	                <td>docx</td>
+	                <td><a href="#">下载</a></td>
+	            </tr>
+	            <tr>
+	                <td>HTML5手册</td>
+	                <td colspan="2"><a href="https://www.w3school.com.cn/html5/index.asp" target="_blank">跳转</a></td>
+	            </tr>
+	            <tr>
+	                <td>腾讯软件中心</td>
+	                <td colspan="2"><a href="https://pc.qq.com/" target="_blank">跳转</a></td>
+	            </tr>
+	        </tbody>
+	        <tfoot>
+	            <tr>
+	                <td><a href="#">本章项目源码.zip</a></td>
+	                <td>zip</td>
+	                <td><a href="#">下载</a></td>
+	            </tr>
+	        </tfoot>
+	    </table>
+	</section>
+    <!-- 视频列表 -->
+    <div class="video-list">
+       </head>
+       <body>
+       	<h4 class="title">课程列表</h4>
+       	<div class="video-list-area">
+       	<ol>
+       		<li><a href="#" class="active">Chrome安装</a></li>
+       		<li><a href="#">WEB概述</a></li>
+       		<li><a href="#">HTML5概述</a></li>
+       		<li><a href="#">HTML5新特性</a></li>
+       		<li><a href="#">HTML5语法与特性</a></li>
+       		<li><a href="#">HTML5页码编码设定</a></li>
+       		<li><a href="#">HTML5段落</a></li>
+       		<li><a href="#">HTML5超链接</a></li>
+       		<li><a href="#">HTML5图片</a></li>
+       		<li><a href="#">HTML5列表</a></li>
+       		<li><a href="#">HTML5表格</a></li>
+       	</ol>
+       	</div>
+		<footer>
+			<div class="footer-wrap">
+			<a href="xx省xxx市xx街xx号">公司地址：xx省xxx市xx街xx号</a><br>
+			<a href="tel：xxxx-xxxxxxxx">联系电话：xxxx-xxxxxxxx</a><br>
+			<a href="mailto:xxxxx@xxx.xxxx">详细邮箱：xxxxx@xxx.xxx</a><br>
+		  	<img src="https://i1.sinaimg.cn/home/main/index2013/footerlogo/footer_logo10_1.gif"/>
+		    	<img src="https://i1.sinaimg.cn/home/main/index2013/footerlogo/footer_logo05.gif"/>
+		    </div>
+			<a href="Copyright @2020"> Copyright @2020</a><br>
+		</footer>	
+			<a href="#top" id="gotop">TOP</a>
+</body>
+
+</html>
